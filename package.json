@@ -1,0 +1,15 @@
+{
+  "name": "bedan-meow",
+  "version": "1.0.0",
+  "description": "bedan meow static website",
+  "main": "index.js",
+  "scripts": {
+    "build": "eleventy",
+    "start": "eleventy --serve"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.0"
+  }
+}

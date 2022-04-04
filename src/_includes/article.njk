@@ -1,0 +1,14 @@
+---
+layout: "base.njk"
+---
+<div class="article-body">
+    <div class="caption">
+        <h1>{{ title }}</h1>
+        <p>By {{ author }}. Posted at {{ page.date | postDate }}</p>
+    </div>
+    <img src="{{ imageSrc }}" alt="{{ altText }}">
+    <figcaption> {{ altText }}</figcaption>
+    <article>
+        {{ content | safe }}
+    </article>
+</div>

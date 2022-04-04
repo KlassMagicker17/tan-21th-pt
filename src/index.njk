@@ -1,0 +1,23 @@
+---
+    layout: 'base.njk'
+    title: 'Home'
+---
+
+<section class="home-info">
+    <img src="/assets/logo.png" alt="Bedan Meow Logo">
+    <div class="caption">
+        <h1>THE BEDAN MEOW</h1>
+        <p>Your best source of unreal news on what's going on in San Beda University, backed up by falsified data!</p>
+    </div>
+</section>
+<section class="featured-articles">
+    <div class="caption">
+        <h1>Featured Articles</h1>
+        <p>Our favorite articles!</p>
+    </div>
+    <ul class="article-list">
+        {%- for post in collections.featured -%}
+            {% include "article-snippet.njk" %}
+        {%- endfor -%}
+    </ul>
+</section>

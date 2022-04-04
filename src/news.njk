@@ -1,0 +1,22 @@
+---
+layout: "base.njk"
+title: "News"
+---
+
+<style>
+    .featured-articles {
+        background-color: white;
+    }
+</style>
+
+<section class="featured-articles">
+    <div class="caption">
+        <h1>Our Articles</h1>
+        <p>The best (fake) tsimis in the whole SBU.</p>
+    </div>
+    <ul class="article-list">
+        {%- for post in collections.post | reverse -%}
+            {% include "article-snippet.njk" %}
+        {%- endfor -%}
+    </ul>
+</section>
