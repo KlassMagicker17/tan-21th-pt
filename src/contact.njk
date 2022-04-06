@@ -1,0 +1,21 @@
+---
+layout: "base.njk"
+title: "Contact"
+---
+
+<script src="/contact.js"></script>
+<section class="center-flex">
+  <div class="section-subject center-flex">
+    <h1>Contact Form</h1>
+    <p>Send us a message! (and watch us ignore it.)</p>
+  </div>
+  <form class="contact-form center-flex" method="POST" action="https://script.google.com/macros/s/AKfycbwy4qURKKygRyKLz8Pi0wqFKGo6wAI3m--_DPgfdSbyQqfeXqAjj-4jJonXWsybTEwE7w/exec" id="contact-form">
+    {# <label for="Email">EMAIL</label> #}
+    <input name="Email" type="text" placeholder="Enter your email here." id="Email" required>
+    {# <label for="Name">NAME</label> #}
+    <input name="Name" type="text" placeholder="Enter your name here." id="Name" required>
+    {# <label for="Message">MESSAGE</label> #}
+    <textarea name="Message" id="Message" placeholder="Enter your message here."></textarea>
+    <button type="submit">Send</button>
+  </form>
+</section>

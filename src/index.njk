@@ -3,20 +3,20 @@
     title: 'Home'
 ---
 
-<section class="home-info">
+<section class="home-info center-flex">
     <img src="/assets/logo.png" alt="Bedan Meow Logo">
-    <div class="caption">
+    <div class="center-flex">
         <h1>THE BEDAN MEOW</h1>
         <p>Your best source of unreal news on what's going on in San Beda University, backed up by falsified data!</p>
     </div>
 </section>
-<section class="featured-articles">
-    <div class="caption">
+<section class="article-list-holder important-background center-flex">
+    <div class="section-subject center-flex">
         <h1>Featured Articles</h1>
         <p>Our favorite articles!</p>
     </div>
-    <ul class="article-list">
-        {%- for post in collections.featured -%}
+    <ul class="article-list center-flex">
+        {%- for post in collections.featured | reverse -%}
             {% include "article-snippet.njk" %}
         {%- endfor -%}
     </ul>

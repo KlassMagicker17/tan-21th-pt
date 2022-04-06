@@ -1,18 +1,16 @@
 ---
 layout: "base.njk"
-title: "Recent News"
+title: "All News"
 ---
-
 
 <section class="article-list-holder center-flex">
     <div class="section-subject center-flex">
-        <h1>Recent Articles</h1>
-        <p>Hottest fabricated news, right on your plate!</p>
+        <h1>Our Articles</h1>
+        <p>The best (fake) tsimis in the whole SBU.</p>
     </div>
     <ul class="article-list center-flex">
-        {%- for post in collections.post | reverse | limit(5)-%}
+        {%- for post in collections.post | reverse-%}
             {% include "article-snippet.njk" %}
         {%- endfor -%}
     </ul>
-    <h4 class="center-align"><a href="\news-complete">See all articles.</a></h4>
 </section>
