@@ -1,0 +1,4 @@
+Sitemap: https://bedan-meow.netlify.app//sitemap.xml
+
+User-agent: *
+Disallow:
