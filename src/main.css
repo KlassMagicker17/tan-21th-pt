@@ -1,3 +1,8 @@
+:root {
+    --color-0 : white;
+    --color-1 : hsl(0,100%,80%);
+}
+
 * {
     box-sizing: border-box;
 }
@@ -26,6 +31,7 @@ header {
     align-items: center;
     height: 5em;
     width: 100%;
+    position: absolute;
 }
 
 header img {
@@ -101,8 +107,10 @@ nav {
 /* HOME PAGE INFO BANNER */
 
 .home-info {
-    margin-top: 2em;
-    margin-bottom: 5em;
+    margin: 0px;
+    height: 100vh;
+    justify-content: center;
+    padding-top: 10vh;
 }
 
 .home-info div {
@@ -118,6 +126,7 @@ nav {
     margin-bottom: 0px;
     font-size: 3em;
     text-align: center;
+    padding: 0 1em;
 }
 
 .home-info p {
@@ -373,7 +382,6 @@ footer {
         flex-flow: row;
         align-items: center;
         justify-content: center;
-        margin: 16vh 0px;
     }
 
     nav {
@@ -424,6 +432,7 @@ footer {
     .home-info h1 {
         width: 100%;
         text-align: left;
+        padding: 0px;
     }
 
     .home-info p {
