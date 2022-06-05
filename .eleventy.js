@@ -13,9 +13,9 @@ module.exports = function (eleventyConfig) {
   });
 
   eleventyConfig.addPassthroughCopy("src/main.css");
+  eleventyConfig.addPassthroughCopy("src/animation.css");
   eleventyConfig.addPassthroughCopy("src/assets");
-  eleventyConfig.addPassthroughCopy("src/contact.js");
-  eleventyConfig.addPassthroughCopy("src/favicon.png");
+  eleventyConfig.addPassthroughCopy("src/animate.js");
 
   return {
     dir: {

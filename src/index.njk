@@ -4,21 +4,74 @@ title: 'Home'
 addDescription: "The homepage of TBM. Also includes the featured articles."
 addKeywords: "home, homepage, featured articles"
 ---
+<script src="/animate.js" defer></script>
+<link rel="stylesheet" href="/animation.css">
 
 <section class="home-info center-flex">
-    <img src="/assets/logo.png" alt="Bedan Meow Logo">
-    <div class="center-flex">
-        <h1>THE BEDAN MEOW</h1>
-        <p>Your best source of unreal news on what's going on in San Beda University, backed up by falsified data!</p>
-    </div>
+    <svg
+    width="207.91307mm"
+    height="64.991135mm"
+    viewBox="0 0 207.91307 64.991136"
+    version="1.1"
+    id="svg8"
+    inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)"
+    sodipodi:docname="twenty-one.svg">
+   <defs
+      id="defs2" />
+   <g
+      inkscape:label="Layer 1"
+      inkscape:groupmode="layer"
+      id="layer1"
+      transform="translate(34.687234,-47.479341)">
+      
+     <path class="animate-path"
+        style="fill:none;stroke:#2aff2a;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;--length:251;--animation-order:0"
+        d="m -9.7109336,76.732758 c 0,0 -6.4489314,19.385002 1.8708873,25.390602 8.31981854,6.0056 24.6595913,-3.432303 35.0123063,-8.819891 10.352715,-5.387588 12.707521,-21.023055 25.657876,-22.18337 12.950355,-1.160315 23.732138,23.293186 37.952272,22.450639 14.220132,-0.842547 19.831772,-26.689701 32.874152,-25.123336 13.04238,1.566365 13.63593,27.471367 23.51972,29.132379 9.88379,1.661012 19.2434,-12.027127 19.2434,-12.027127"
+        id="path964"
+        sodipodi:nodetypes="czzzzzzc" />
+     <path class="animate-path"
+        style="fill:none;stroke:#44aa00;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;--length:221;--animation-order:1"
+        d="m -34.623982,61.422419 c 0,0 49.846571,13.035666 67.676173,17.448495 17.829602,4.412829 28.715775,15.246139 44.901281,15.234364 16.185506,-0.01178 32.905078,-16.413405 47.039438,-16.036171 14.13436,0.377234 48.1039,20.844718 48.1039,20.844718"
+        id="path958"
+        sodipodi:nodetypes="czzzc" />
+     <path class="animate-path"
+        style="fill:none;stroke:#55d400;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;--length:203;--animation-order:2"
+        d="m -27.083452,86.889001 c 0,0 44.673939,-13.110163 67.886458,-12.561668 23.212519,0.548495 50.859058,18.508815 68.420994,16.036171 17.56194,-2.472644 21.41661,-15.275336 31.53781,-17.639787 10.1212,-2.364451 26.19241,1.336347 26.19241,1.336347"
+        id="path960"
+        sodipodi:nodetypes="czzzc" />
+
+     <path class="animate-path"
+        style="fill:none;stroke:#55d400;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;--length:225;--animation-order:3"
+        d="m 156.28411,62.196015 c 0,0 -11.45431,30.362213 -26.45833,32.88393 C 114.82176,97.601662 102.77064,68.178474 88.248399,68.999588 73.72616,69.820702 71.968785,89.859126 58.388281,92.812087 44.807777,95.765048 29.545229,80.914873 14.543045,81.850778 -0.45913918,82.786683 -27.412313,98.103754 -27.412313,98.103754"
+        id="path962"
+        sodipodi:nodetypes="czzzzc" />
+        <g
+        id="g968">
+       <path class="animate-path"
+          style="filter:drop-shadow(0px 0px 5px black);fill:none;stroke:#2ca02c;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;--length:122;--animation-order:4"
+          d="M 33.261905,69.925593 C 48.053179,47.329537 61.738195,57.351615 61.712957,68.597115 61.687719,79.842615 41.199405,108.66816 41.199405,108.66816 L 75.21726,101.29762"
+          id="path835"
+          sodipodi:nodetypes="czcc" />
+       <path class="animate-path"
+          style="filter:drop-shadow(0px 0px 5px black);fill:none;stroke:#2ca02c;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;--length:119;--animation-order:4"
+          d="M 68.986217,60.82961 78.052082,49.979006 86.210995,103.36305 71.691338,109.97764 103.1875,96.383926"
+          id="path837"
+          sodipodi:nodetypes="ccccc" />
+     </g>
+   </g>
+ </svg>
+ <div id="homeInfoText">
+     <h1>Best Pieces of Literature</h1>
+     <h2>in my most humble opinion...</h2>
+ </div>
 </section>
 <section class="article-list-holder important-background center-flex">
     <div class="section-subject center-flex">
-        <h1>Featured Articles</h1>
-        <p>Our favorite articles!</p>
+        <h1>My selection</h1>
+        <p>enjoy! </p>
     </div>
-    <ul class="article-list center-flex">
-        {%- for post in collections.featured | reverse -%}
+    <ul class="article-list">
+        {%- for post in collections.post | reverse -%}
             {% include "article-snippet.njk" %}
         {%- endfor -%}
     </ul>
