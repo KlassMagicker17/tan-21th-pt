@@ -1,8 +1,8 @@
 <li class="article-snippet center-flex">
-    <a href="{{ post.url }}" style="background: url({{post.data.imageSrc}}) no-repeat center;"></a>
+    <a href="{{ post.url }}" style="background: url({{post.data.thumbnailSrc}}) no-repeat center;" alt="{{ post.altText }}"></a>
     <h3><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
     <div>
         <blockquote>{{ post.data.summary }}</blockquote>
-        <p>By <strong>{{ post.data.author }}</strong>.</strong></p>
+        <p>By <strong>{{ post.data.author }}</strong></p>
     </div>
 </li>
