@@ -19,7 +19,7 @@
 
 body {
     margin: 0px;
-    font-family: "Century Gothic";
+    font-family: "Montserrat", "Century Gothic", Helvetica, Arial, sans-serif;
     background-color: white;
     min-height: 100vh;
     justify-content: space-between;

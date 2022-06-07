@@ -21,4 +21,4 @@ The characters. Because of how powers are gained, 100% of capes (slang for peopl
 
 My words do no justice of how good of a read this webserial is and it's sequel. I've barely scratched the surface of what Worm truly is. Worm is all of this and more.
 
-All in all, it's a good read. Bonus points, it's free and all other webserials Wildbow is working on. [Read it here!](https://parahumans.wordpress.com/2011/06/11/1-1/)
+This is the greatest thing I might ever read in my lifetime. Well second to Ward. Well maybe until I read Terry Pratchett's Discworld. Maybe the best thing I'll read for free. Without pirating pdf's. Anyways, Worm is amazing: [read it here!](https://parahumans.wordpress.com/2011/06/11/1-1/)
