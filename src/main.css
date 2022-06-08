@@ -242,7 +242,7 @@ nav {
 }
 
 .article-body img {
-    width: min(80%, 300px);
+    width: min(80%,500px);
 }
 
 .article-body article {
@@ -271,6 +271,12 @@ footer {
     justify-content: space-between;
     color: white;
     width: 100%;
+}
+footer h3 {
+    margin: 1em 3em;
+}
+footer h1 {
+    margin: 1em 2em;
 }
 
 /* HELPER CLASSES THING */

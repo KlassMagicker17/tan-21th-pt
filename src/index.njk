@@ -71,7 +71,7 @@ addKeywords: "home, homepage, featured articles"
         <p>enjoy! </p>
     </div>
     <ul class="article-list">
-        {%- for post in collections.post | reverse -%}
+        {%- for post in collections.post -%}
             {% include "article-snippet.njk" %}
         {%- endfor -%}
     </ul>

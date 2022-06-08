@@ -16,6 +16,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/animation.css");
   eleventyConfig.addPassthroughCopy("src/assets");
   eleventyConfig.addPassthroughCopy("src/animate.js");
+  eleventyConfig.addPassthroughCopy("src/favicon.png");
 
   return {
     dir: {

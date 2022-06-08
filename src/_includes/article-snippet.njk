@@ -1,6 +1,6 @@
 <li class="article-snippet center-flex">
-    <a href="{{ post.url }}" style="background: url({{post.data.thumbnailSrc}}) no-repeat center;" alt="{{ post.altText }}"></a>
-    <h3><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
+    <a href="{{ post.url }}" style="background-image: url({{post.data.thumbnailSrc}}); background-position: center; background-repeat: no-repeat; background-size: cover;" alt="{{ post.altText }}"></a>
+    <h3><a href="{{ post.url }}" tabindex="-1">{{ post.data.title }}</a></h3>
     <div>
         <blockquote>{{ post.data.summary }}</blockquote>
         <p>By <strong>{{ post.data.author }}</strong></p>
