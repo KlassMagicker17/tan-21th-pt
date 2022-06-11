@@ -262,6 +262,11 @@ nav {
     margin: 0.5em;
 }
 
+.article-body blockquote {
+    border-left: 2px solid var(--color-8);
+    margin: 0.5em 1em;
+}
+
 /* FOOTER THINGS */
 
 footer {
