@@ -9,7 +9,7 @@ module.exports = function (eleventyConfig) {
   });
 
   eleventyConfig.addFilter("githubURL", (url) => {
-    return `https://klassmagicker17.github.io/tan-21th-pt/${url}`
+    return `https://klassmagicker17.github.io/tan-21th-pt${url}`
   });
 
   eleventyConfig.addFilter("limit", (array, limit) => {
@@ -24,7 +24,8 @@ module.exports = function (eleventyConfig) {
 
   return {
     dir: {
-      input: "src"
+      input: "src",
+      output: "docs"
     }
   }
 };

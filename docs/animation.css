@@ -1,0 +1,16 @@
+.animate-path {
+    stroke-dasharray: var(--length);
+    stroke-dashoffset: var(--length);
+    filter: blur(100);
+    transition: stroke-dashoffset 2s ease-in-out;
+    transition-delay: calc(var(--animation-order) * 400ms);
+}
+
+.run-stroke {
+    stroke-dashoffset: 0;
+}
+
+.float-in {
+    opacity: 1 !important;
+    transform: translateY(0%) !important;
+}
