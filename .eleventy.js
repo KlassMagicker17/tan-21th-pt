@@ -8,6 +8,10 @@ module.exports = function (eleventyConfig) {
     return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED);
   });
 
+  eleventyConfig.addFilter("githubURL", (url) => {
+    return `https://klassmagicker17.github.io/tan-21th-pt/${url}`
+  });
+
   eleventyConfig.addFilter("limit", (array, limit) => {
     return array.splice(0,limit);
   });
