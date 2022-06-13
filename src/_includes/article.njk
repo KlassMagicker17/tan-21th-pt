@@ -6,7 +6,7 @@ layout: "base.njk"
         <h1>{{ title }}</h1>
         <p>By {{ author }}</p>
     </div>
-    <img src="{{ imageSrc }}" alt="{{ altText }}">
+    <img src="{{ imageSrc | githubURL }}" alt="{{ altText }}">
     <figcaption> {{ altText }}</figcaption>
     <article>
         {{ content | safe }}
